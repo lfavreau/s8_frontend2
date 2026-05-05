@@ -9,6 +9,8 @@
     "lint": "eslint .",
     "test": "jest --runInBand",
     "coverage": "jest --coverage --runInBand",
+    "e2e": "set ELECTRON_RUN_AS_NODE=&& cypress run",
+    "e2e:open": "set ELECTRON_RUN_AS_NODE=&& cypress open",
     "cypress:run": "set ELECTRON_RUN_AS_NODE=&& cypress run",
     "cypress:open": "set ELECTRON_RUN_AS_NODE=&& cypress open",
     "preview": "vite preview"

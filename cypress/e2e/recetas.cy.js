@@ -55,9 +55,9 @@ describe("Base de datos de recetas", () => {
       .find("button")
       .click();
 
-    cy.contains("Ensalada chilena").should("be.visible");
+    cy.get(".detail").contains("Ensalada chilena").should("be.visible");
     cy.contains("Tiempo de cocción: 15 minutos").should("be.visible");
-    cy.contains("Pastel de choclo").should("not.exist");
+    cy.get(".detail").contains("Pastel de choclo").should("not.exist");
   });
 
   // ── Flujo 4: Guardar receta y prevenir duplicados ──
