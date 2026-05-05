@@ -1,19 +1,20 @@
-# Recetas PFY2202
+# RECETARIO
 
-Archivos complementarios para una app React + Vite de recetas.
+App React + Vite de recetas.
 
 ## Instalación base
+Crea un proyecto vite react
 
 ```bash
-npm create vite@latest recetas-pfy2202 -- --template react
-cd recetas-pfy2202
+npm create vite@latest recetas -- --template react
+cd recetas
 npm install
 npm install @testing-library/react @testing-library/jest-dom @testing-library/user-event jest jest-environment-jsdom msw whatwg-fetch cypress eslint
 ```
 
 ## Copia de archivos
 
-Copia el contenido de este ZIP sobre la carpeta creada por Vite.
+Copia el contenido de este ZIP descomprimido sobre la carpeta creada por Vite.
 
 ## Scripts sugeridos para package.json
 
